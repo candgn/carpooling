@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "538769862644",
+    "firebase_url": "https://projektarbeit-ccfd5.firebaseio.com",
+    "project_id": "projektarbeit-ccfd5",
+    "storage_bucket": "projektarbeit-ccfd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538769862644:android:ef344049044eacf7",
+        "android_client_info": {
+          "package_name": "com.baca.deneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538769862644-89512huutavv723cu5jo2dmka90qbflp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baca.deneme",
+            "certificate_hash": "6282a4a78a2d8dc9c7e908965f6425dbb3ab06bb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqhvUUjASzOVBXi11_oa_doYeicxDZ1EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538769862644-rl2oqd0317pnhr1tfnv5lg37qq4agf0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

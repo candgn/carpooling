@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registrierung"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/Vorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:hint="@string/vorname_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/Nachname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Vorname"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/nachname_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/GSM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nachname"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/gsm_hint"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GSM"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/universitaet_mail"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Mail"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/Passwordnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/nochmal_password_hint"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/registrierungbutton"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Passwordnm"
+        android:layout_alignEnd="@+id/Passwordnm"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="registrieren"
+        android:text="@string/registrierung_button"
+        android:background="@drawable/tau_gradient_bckgrnd"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

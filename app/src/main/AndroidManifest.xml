@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baca.carpooling">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VergangeneAnzeigeDetail"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".BestatigungMap"
+            android:label="@string/title_activity_bestatigung_map" />
+        <activity
+            android:name=".BestaetigungDetail"
+            android:label="@string/title_activity_bestaetigung_detail" />
+        <activity
+            android:name=".MeineAnzeigen"
+            android:label="@string/title_activity_meine_anzeigen" />
+        <activity
+            android:name=".MapAnwenden"
+            android:label="@string/title_activity_map_anwenden" />
+        <activity
+            android:name=".AddMapZiel"
+            android:label="@string/title_activity_add_map_ziel" />
+        <activity
+            android:name=".AddMapStart"
+            android:label="@string/title_activity_add_map_start" />
+        <activity
+            android:name=".Bestaetigung"
+            android:label="@string/title_activity_bestaetigung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetalierteProfil"
+            android:label="@string/title_activity_detalierte_profil" />
+        <activity
+            android:name=".Anwenden"
+            android:label="@string/title_activity_anwenden" />
+        <activity
+            android:name=".Anzeige"
+            android:label="@string/title_activity_anzeige" />
+        <activity
+            android:name=".Profil"
+            android:label="@string/title_activity_profil" />
+        <activity
+            android:name=".AddAnzeige"
+            android:label="@string/title_activity_add_anzeige" />
+        <activity
+            android:name=".Fahrten"
+            android:label="@string/title_activity_fahrten" />
+        <activity android:name=".Registrierung" />
+        <activity android:name=".Einloggen" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

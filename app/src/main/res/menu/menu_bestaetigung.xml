@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.baca.carpooling.Bestaetigung">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigation_fahrten"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Fahrten" />
+
+    <item
+        android:id="@+id/navigation_bestaetigung"
+        android:icon="@drawable/ic_check_black_24dp"
+        android:title="Bestaetigung" />
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/ic_accessibility_black_24dp"
+        android:title="Profil"
+        />
+
+</menu>
